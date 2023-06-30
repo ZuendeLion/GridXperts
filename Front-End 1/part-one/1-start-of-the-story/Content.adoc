@@ -1,0 +1,15 @@
+== What is Following Terms ? 
+=== Front-End
+Front-end refers to the part of a website or application that the user interacts with. It includes the layout, design, and user interface that the user sees and interacts with. This can include elements such as buttons, menus, forms, and more. Front-end development involves using languages such as HTML, CSS, and JavaScript to create the visual and interactive elements of a website or application.
+
+=== Backend
+The backend refers to the part of a website or application that runs behind the scenes and is not visible to the user. This includes the server, database, and application logic that handles tasks such as processing user input, storing data, and retrieving data. Backend development typically involves using languages such as PHP, Python, or Ruby and frameworks such as Laravel, Django, or Ruby on Rails.
+
+=== HTML
+HTML (Hypertext Markup Language) is the standard language used for creating web pages. It is used to structure content and define the layout and appearance of a web page. HTML uses tags to define elements such as headings, paragraphs, links, and images.
+
+=== Why we started using HTML instead of Video or Images?
+
+The development of HTML was driven in part by the slow network speeds of the early internet, which made it impractical to transmit large amounts of multimedia content such as images and videos. HTML provided a way to create structured, text-based content that could be rendered quickly and efficiently by web browsers, even over slow network connections.
+
+However, it's also worth noting that HTML has continued to evolve and adapt to changes in technology and user needs over the years. While its original purpose may have been to improve the performance of web content, today HTML is used for a wide range of purposes beyond just text, including multimedia, animations, interactive forms, and more.

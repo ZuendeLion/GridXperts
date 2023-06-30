@@ -1,0 +1,84 @@
+=== HTML/CSS Form Basics
+
+. Form Basics
+
+Forms are used to collect user input. The <form> element acts as a container for different input elements, such as text fields, checkboxes, and buttons. Example:
+[source,html]
+<form>
+  <!-- input elements go here -->
+</form>
+----
+
+.. Input
+
+The <input> element is used to create various types of input fields, such as text, email, password, etc. Example:
+[source,html]
+<input type="text" name="username" placeholder="Username">
+----
+
+.. Label
+
+The <label> element is used to provide a label for input elements, improving accessibility. Example:
+[source,html]
+<label for="username">Username:</label>
+<input type="text" name="username" id="username">
+
+.. Textarea
+
+The <textarea> element is used to create a multiline text input field. Example:
+[source,html]
+<textarea name="message" placeholder="Your message"></textarea>
+
+.. Select
+
+The <select> element is used to create a dropdown list. Example:
+[source,html]
+<select name="country">
+  <option value="usa">United States</option>
+  <option value="canada">Canada</option>
+</select>
+----
+
+.. Checkbox
+
+The <input> element with type="checkbox" is used to create checkboxes. Example:
+[source,html]
+<input type="checkbox" name="terms" id="terms">
+<label for="terms">I agree to the terms and conditions</label>
+----
+
+.. Radio Button
+
+The <input> element with type="radio" is used to create radio buttons. Example:
+[source,html]
+<input type="radio" name="gender" value="male" id="male">
+<label for="male">Male</label>
+<input type="radio" name="gender" value="female" id="female">
+<label for="female">Female</label>
+----
+
+. GET & POST
+
+GET and POST are two methods for submitting form data to a server. The method attribute is used to specify the submission method. Example:
+[source,html]
+<form method="post">
+  <!-- input elements go here -->
+</form>
+----
+
+. Basic Form Styling
+
+Use CSS to style form elements. Example:
+[source,css]
+input[type="text"], textarea, select {
+width: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+margin-bottom: 10px;
+}
+
+
+== Exercise
+
+. Create Registration form
+. Create Add a new book form

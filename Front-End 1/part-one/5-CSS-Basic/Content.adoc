@@ -1,0 +1,95 @@
+== CSS Basics
+
+Cascading Style Sheets (CSS) is a stylesheet language used for describing the look and formatting of a document written in HTML. CSS allows you to apply styles (colors, fonts, layouts, etc.) to HTML elements.
+
+=== How to write first css class using <style></style> tag
+
+You can define CSS styles within an HTML document using the <style></style> tag placed inside the <head> element. Here's an example:
+
+[source,html]
+----
+<head>
+  <style>
+    .example-class {
+      color: red;
+    }
+  </style>
+</head>
+----
+
+=== Basic Selectors
+
+CSS selectors are patterns used to select HTML elements and apply styles to them. Here are some basic selectors:
+
+==== Class (.class-name)
+
+A class selector targets elements with a specific class attribute. The class selector is a period followed by the class name. Example:
+[source,css]
+----
+.class-name {
+font-weight: bold;
+}
+----
+
+==== Id (#id)
+
+An ID selector targets an element with a specific ID attribute. The ID selector is a hash symbol (#) followed by the ID name. Example:
+[source,css]
+----
+#id {
+background-color: yellow;
+}
+----
+
+==== tag (body)
+
+A tag selector targets elements with a specific tag name. Example:
+[source,css]
+----
+body {
+font-family: Arial, sans-serif;
+}
+----
+
+=== Basic attributes:
+
+Here are some basic CSS properties that you can apply to elements:
+
+==== width
+
+The width property sets the width of an element. Example:
+[source,css]
+div {
+width: 200px;
+}
+
+==== height
+
+The height property sets the height of an element. Example:
+[source,css]
+div {
+height: 100px;
+}
+
+==== text-align
+
+The text-align property sets the horizontal alignment of the text within an element. Example:
+[source,css]
+p {
+text-align: center;
+}
+
+=== Import external css file (<link>)
+
+To use an external CSS file, you can use the <link> element inside the <head> of your HTML document. Example:
+[source,html]
+----
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+----
+
+This code imports the "styles.css" file and applies the styles defined in that file to the HTML document.
+
+== Exercises
+There is no exercise for this section
